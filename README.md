@@ -7,16 +7,6 @@ Welcome to the **terraform-projects** repository! This repository is a collectio
         [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/nikhil--chaudhari/)
         [![Medium](https://img.shields.io/badge/Medium-Writeups-black)](https://medium.com/@nikhil-c)
  
-
-## 🍁
-
-
-
-
-
-
-
-
 ## 🍁Table of Contents
 
 - [Introduction](#introduction)
@@ -27,7 +17,7 @@ Welcome to the **terraform-projects** repository! This repository is a collectio
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## 🍁Introduction
 
 This repository contains a variety of Terraform configurations, each targeting different infrastructure use cases across popular cloud platforms like **AWS**, **Azure**, and **Google Cloud**. The goal is to provide ready-to-use Terraform templates that you can easily customize for your own projects. Whether you are setting up a secure VPC, deploying a web application, or managing scalable infrastructure, you'll find a project that fits your needs.
 
@@ -37,7 +27,7 @@ The projects in this repository follow best practices for:
 - **Monitoring:** Incorporating monitoring tools like AWS CloudWatch for real-time alerts and logs.
 - **Cost Efficiency:** Optimizing resource usage while staying within cloud providers' free tiers where possible.
 
-## Prerequisites
+## 🍁Prerequisites
 
 Before using any of the Terraform configurations in this repository, you need to have the following tools installed and set up:
 
@@ -47,7 +37,7 @@ Before using any of the Terraform configurations in this repository, you need to
 - **AWS CLI (optional)**: If working with AWS, you can install and configure the [AWS CLI](https://aws.amazon.com/cli/).
 - **IAM Permissions**: Ensure your IAM user has sufficient permissions to create and manage the resources defined in the projects (e.g., EC2, RDS, IAM).
 
-## Project List
+## 🍁Project List
 
 ### Project 1: Production-Ready Terraform AWS Infrastructure
 This project demonstrates how to use Terraform to provision a production-ready, scalable, and secure AWS infrastructure. It includes:
@@ -61,7 +51,7 @@ This project demonstrates how to use Terraform to provision a production-ready, 
 
 This project is designed to be industry-ready, focusing on high availability, security, and performance.
 
-## Installation and Setup
+## 🍁Installation and Setup
 
 ### Clone the Repository
 
@@ -103,23 +93,23 @@ terraform init
 
 ```
 ### Plan and Apply
-Run the following command to see the execution plan before applying the configuration:
+- Run the following command to see the execution plan before applying the configuration:
 ```
 terraform plan
 ```
-If the plan looks good, apply the configuration to create the infrastructure:
+- If the plan looks good, apply the configuration to create the infrastructure:
 
 ```
 terraform apply
 ```
-To tear down the infrastructure, you can use:
+- To tear down the infrastructure, you can use:
 
 ```
 terraform destroy
 
 ```
 
-## Contributing
+## 🍁Contributing
 We welcome contributions to this repository! If you would like to contribute, please follow these steps:
 
 1. Fork the repository to your own GitHub account.
