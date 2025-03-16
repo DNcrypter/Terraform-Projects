@@ -1,0 +1,5 @@
+aws_region = "us-west-2"
+aws_profile = "devops_profile"
+instance_type = "t3.medium"
+db_username = "admin"
+db_password = "securePassword123"
